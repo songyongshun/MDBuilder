@@ -34,10 +34,10 @@ from __future__ import print_function, division
 import os
 import sys
 try:
-    from cStringIO import StringIO
+    from io import StringIO
 except ImportError:
     from StringIO import StringIO
-from Tkinter import *
+from tkinter import *
 
 import tkMessageBox
 import tkFileDialog
